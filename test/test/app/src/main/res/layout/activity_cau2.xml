@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Activity.Cau2">
+
+    <Button
+        android:id="@+id/ThemTheLoai"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Thêm Thể Loại" />
+
+    <Button
+        android:id="@+id/ThemSanPham"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Thêm Sản Phẩm" />
+
+    <Button
+        android:id="@+id/ThemHoaDon"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Thêm Hoá Đơn" />
+
+    <Button
+        android:id="@+id/ThemHoaDonChiTiet"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Thêm Hoá Đơn Chi Tiết" />
+    <Button
+        android:id="@+id/btnXemTatCa"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Xem Tất Cả"/>
+</LinearLayout>

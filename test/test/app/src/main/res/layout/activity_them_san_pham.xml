@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Activity.ThemSanPham">
+
+    <EditText
+        android:id="@+id/edtTenSP"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Tên Sản Phẩm"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/edtSoLuongNhap"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Số lượng nhập"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/edtNgayNhap"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Ngày Nhập"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/edtDonGiaNhap"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Đơn Giá Nhập"
+        android:inputType="textPersonName" />
+    <EditText
+        android:id="@+id/edtMaTlSP"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Mã Sản phẩm"
+        android:inputType="textPersonName" />
+
+    <Button
+        android:id="@+id/btnThemSanPham"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Thêm" />
+</LinearLayout>
